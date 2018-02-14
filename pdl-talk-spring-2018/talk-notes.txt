@@ -1,0 +1,53 @@
+Chris:
+
+- Put example task names in parallel DNN figure
+- Slide says we maximize Event-F1 score, but you verbally said recall?
+- Why include "1a", "1b", etc.?
+- Hz?
+- Say where the M-Scheduler code is actually running
+- Admission control: When do we refuse new apps?
+- How long does the scheduler and deployment process take to run?
+- Remind us what precision and recall are
+- Maybe modify intro to make it clear that the contributions are the
+  scheduler and model, not the idea of sharing a trunk.
+
+Daniel:
+
+- blue colour is hard to see
+- slide no
+Why does this degrade quality?
+More sharing =
+alignment of text
+crosses not visible
+-----
+I like how it almost looks like arrows
+the kink at 95
+the accuracy -
+sample more or specialise more?
+-----
+I really like the video
+-----
+Event F1-score
+can we do a 2-by-2 grid?
+----
+Challenges of searching the state space
+joint optimization
+-------
+annotation of slides with where it is run
+--
+their data centre
+our data centre
+------
+that dropofff
+does it scale the same way?
+start off at no sharing and degrade to max sharing
+we do both
+- tell you capacity - how big a node to provision, what sharing you will need
+- and the ability to dynamically respond
+---
+//at what point
+//does the scheduler say we can't send more packages to the edge node
+//not doing mission control just yet
+//debug applications?
+-------
+we should have taken out the error bars on "Mainstream balances recall and precision"
