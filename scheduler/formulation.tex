@@ -14,6 +14,7 @@
 \var{correlations} &= \{corr_1,~corr_2,~...~,~corr_n\} \\
 \var{event-lengths} &= \{len_1,~len_2,~... ,~len_n\} \\
 \var{event-frequencies} &= \{freq_1,~freq_2,~...~,~freq_n\} \\
+\var{accuracies} &= \{acc_1,~acc_2,~...~,~acc_n\} \\
 \var{layer-latencies} &= \{lat_1,~lat_2,~...~,~lat_m\} \\
 \var{budget} \\
 \intertext{Set:} \\
@@ -23,7 +24,7 @@
 \vspace{-16pt}
 \begin{align*}
 \intertext{Maximize:} \\
-&\mathlarger{\mathlarger{\sum}}_{\forall~i \in n }~fscore(spec_i,~fps_i,~len_i,~freq_i,~corr_i) \\
+&\mathlarger{\mathlarger{\sum}}_{\forall~i \in n }~fscore(spec_i,~fps_i,~acc_i,~len_i,~freq_i,~corr_i) \\
 \intertext{Subject to:} \\
 &\var{budget} \geq cost(\var{specializations},~\var{frame-rates},~\var{layer-latencies}) \\
 \end{align*}
